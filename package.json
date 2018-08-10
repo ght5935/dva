@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "dva": "^2.4.0",
+    "antd": "^3.8.0",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.8.0",
+    "babel-polyfill": "^6.26.0",
+    "console-polyfill": "^0.3.0",
+    "crypto-js": "^3.1.9-1",
+    "dva-loading": "^2.0.5",
+    "echarts": "^4.1.0",
+    "echarts-for-react": "^2.0.14",
+    "global": "^4.3.2",
+    "jquery": "^3.3.1",
+    "keymaster": "^1.6.2",
+    "less-vars-to-js": "^1.2.1",
+    "mockjs": "^1.0.1-beta3",
+    "path-to-regexp": "^2.2.1",
+    "qs": "^6.5.2",
+    "rc-queue-anim": "^1.6.5",
+    "react": "^16.2.0",
+    "react-cookies": "^0.1.0",
+    "react-dom": "^16.2.0",
+    "socket.io-client": "^2.1.1",
+    "swiper": "^4.3.5"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.0.0",
+    "expect": "^23.4.0",
+    "redux-logger": "^3.0.6"
+  }
+}

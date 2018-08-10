@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# production
+/dist
+/cf
+
+# misc
+.DS_Store
+npm-debug.log*
+
+
+/target/
+
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+~*
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.zip
+
+yarn.lock

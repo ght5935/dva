@@ -1,0 +1,6 @@
+{
+    "entry": "src/entry/*.js",
+    "extraBabelPlugins": [
+        ["import", { "libraryName": "antd", "style": true }]
+    ]
+}
