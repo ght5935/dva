@@ -1,5 +1,7 @@
 {
     "entry": "src/entry/*.js",
+    "outputPath": "dist",
+    "theme": "theme.js",
     "extraBabelPlugins": [
         ["import", { "libraryName": "antd", "style": true }]
     ]
