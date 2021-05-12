@@ -29,7 +29,7 @@
     "react-cookies": "^0.1.0",
     "react-dom": "^16.2.0",
     "socket.io-client": "^2.1.1",
-    "swiper": "^4.3.5"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "babel-plugin-dva-hmr": "^0.3.2",
